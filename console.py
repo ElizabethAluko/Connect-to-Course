@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """The console"""
 import cmd
-import api_fetch
+import fetch_api_db
 import functionalties
 #from datetime import datetime
 #import shlex  # for splitting the line along spaces except in double quotes
 
-courses_list = api_fetch.assemble_data()
-titles = api_fetch.get_titles()
+courses_list = fetch_api_db.assemble_data()
+titles = fetch_api_db.get_titles()
 
 courses_dict = {course['title']: course for course in courses_list}
 saved_courses = []
