@@ -17,7 +17,7 @@
 <body>
 <header>Connect to Course
         <span class="btn-grp">
-                <button onclick="document.getElementById('f2').style.display='block'" style="width: auto;" type="button" class="btn">Sign Up</button>
+                <button onclick="document.getElementById('f2').style.display='block'" style="width: auto;" type="button" class="btn" id="sign">Sign Up</button>
                 <button onclick="document.getElementById('f1').style.display='block'" style="width: auto;" type="button" class="btn">Log in</button>
         </span>
 </header>
@@ -130,8 +130,8 @@
 	<div class="flex-item3">
 		<a href='{{ result.url }}' target='_blank'><img src="static/images/img2.png" style="width: 100%;"></a>
 		<b> {{ result.title }} </b>
-		<i> {{ result.instructor }}  </i><br>
-		<button><a href='{{ result.course_id }}'>Save</a></button>
+		<i>By: {{ result.instructor }}  </i><br>
+		<button class="savebtn" name='{{ result.url }}'>Save</button>
 	</div>
 	{% endfor %}
 </div>

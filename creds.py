@@ -1,6 +1,6 @@
 #database credentials
-username = "70510vhtddexskejhr13"
-passwd = "pscale_pw_5kMbqjzKdYahjctloNGo6HMaDYY9fesVIhj3ybNsSZr"
+username = "ohy4izayg1l18em4pmdq"
+passwd = "pscale_pw_dCN72nouCY7in1IByF3L6XmrQtcAA9NRLdDYR1R7qIH"
 db_host = "aws.connect.psdb.cloud"
 database = "connecttocourse"
 app_key = "hello123"
